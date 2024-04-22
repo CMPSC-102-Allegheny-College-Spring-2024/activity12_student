@@ -1,0 +1,265 @@
+# findRange.py
+- src/findRange.py:
+    - description: Ensure that findRange.py file exists in the src/ directory
+      check: ConfirmFileExists
+      objectives:
+        LO2:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program for range calculation"
+        LO3:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program for range calculation"
+    - description: No TODOs remain in the findRange.py file
+      check: MatchFileFragment
+      options:
+        fragment: "TODO"
+        count: 0
+        exact: true
+      objectives:
+        LO2:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program for range calculation"
+        LO3:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program for range calculation"
+- description: findRange.py main() returns the correct output
+  check: MatchCommandFragment
+  options:
+    command: "python src/findRange.py"
+    fragment: "Lowest: 60 Highest: 1200 Range: 1140"
+    count: 1
+    exact: true
+  objectives:
+    LO2:
+      degree:
+        - CMPSC: "I"
+          rationale: "Write Python program for range calculation"
+    LO3:
+      degree:
+        - CMPSC: "I"
+          rationale: "Write Python program for range calculation"
+# is_prime
+- src/isPrime.py:
+    - description: Ensure that isPrime.py file exists in the src/ directory
+      check: ConfirmFileExists
+      objectives:
+        LO2:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program to determine primality"
+        LO3:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program to determine primality"
+    - description: No TODOs remain in the isPrime.py file
+      check: MatchFileFragment
+      options:
+        fragment: "TODO"
+        count: 0
+        exact: true
+      objectives:
+        LO2:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program to determine primality"
+        LO3:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program to determine primality"
+- description: isPrime.py main() returns the correct output
+  check: MatchCommandFragment
+  options:
+    command: "python src/isPrime.py"
+    fragment: "101: Prime number"
+    count: 1
+    exact: true
+  objectives:
+    LO2:
+      degree:
+        - CMPSC: "I"
+          rationale: "Write Python program to determine primality"
+    LO3:
+      degree:
+        - CMPSC: "I"
+          rationale: "Write Python program to determine primality"
+# quadraticRoots.py
+- src/quadraticRoots.py:
+    - description: Ensure that quadraticRoots.py file exists in the src/ directory
+      check: ConfirmFileExists
+      objectives:
+        LO2:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program to determine quadratic roots"
+        LO3:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program to determine quadratic roots"
+    - description: No TODOs remain in the quadraticRoots.py file
+      check: MatchFileFragment
+      options:
+        fragment: "TODO"
+        count: 0
+        exact: true
+      objectives:
+        LO2:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program to determine quadratic roots"
+        LO3:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write Python program to determine quadratic roots"
+- description: quadraticRoots.py main() returns the correct output
+  check: MatchCommandFragment
+  options:
+    command: "python src/quadraticRoots.py"
+    fragment: "(-1.0, -1.0)"
+    count: 1
+    exact: true
+  objectives:
+    LO2:
+      degree:
+        - CMPSC: "I"
+          rationale: "Write Python program to determine quadratic roots"
+    LO3:
+      degree:
+        - CMPSC: "I"
+          rationale: "Write Python program to determine quadratic roots"
+# freq.py
+- src/freq.py:
+    - description: Ensure that freq.py file exists in the src/ directory
+      check: ConfirmFileExists
+      objectives:
+        LO1:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write a Python program to use the Counter library"
+        LO5:
+          degree:
+            - CMPSC: "D"
+              rationale: "Write a Python program to use the Counter library"
+    - description: No TODOs remain in the freq.py file
+      check: MatchFileFragment
+      options:
+        fragment: "TODO"
+        count: 0
+        exact: true
+      objectives:
+        LO1:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write a Python program to use the Counter library"
+        LO5:
+          degree:
+            - CMPSC: "D"
+              rationale: "Write a Python program to use the Counter library"
+- description: freq.py main() returns the correct output
+  check: MatchCommandFragment
+  options:
+    command: "python src/freq.py"
+    fragment: "Table of frequencies: Counter({9: 5, 6: 3, 7: 2, 8: 2, 10: 2, 5: 2, 1: 2, 2: 1, 4: 1})"
+    count: 1
+    exact: true
+  objectives:
+    LO1:
+      degree:
+        - CMPSC: "I"
+          rationale: "Write a Python program to use the Counter library"
+    LO5:
+      degree:
+        - CMPSC: "D"
+          rationale: "Write a Python program to use the Counter library"
+# genNamesPhoneEmail.py
+- src/genNamesPhoneEmail.py:
+    - description: Ensure that genNamesPhoneEmail.py file exists in the src/ directory
+      check: ConfirmFileExists
+      objectives:
+        LO4:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write a Python program to process data to return specific values"
+        LO5:
+          degree:
+            - CMPSC: "D"
+              rationale: "Write a Python program to process data to return specific values"
+    - description: No TODOs remain in the genNamesPhoneEmail.py file
+      check: MatchFileFragment
+      options:
+        fragment: "TODO"
+        count: 0
+        exact: true
+      objectives:
+        LO4:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write a Python program to process data to return specific values"
+        LO5:
+          degree:
+            - CMPSC: "D"
+              rationale: "Write a Python program to process data to return specific values"
+- description: genNamesPhoneEmail.py main() returns the correct output
+  check: MatchCommandFragment
+  options:
+    command: "python src/genNamesPhoneEmail.py"
+    fragment: "Name: Eve, number : 622-231-2391, email: eve_7@yahoo.com"
+    count: 1
+    exact: true
+  objectives:
+    LO4:
+      degree:
+        - CMPSC: "I"
+          rationale: "Write a Python program to process data to return specific values"
+    LO5:
+      degree:
+        - CMPSC: "D"
+          rationale: "Write a Python program to process data to return specific values"
+# probabilities.py
+- src/probabilities.py:
+    - description: Ensure that probabilities.py file exists in the src/ directory
+      check: ConfirmFileExists
+      objectives:
+        LO2:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write a Python program to calculate probabilities"
+        LO5:
+          degree:
+            - CMPSC: "D"
+              rationale: "Write a Python program to calculate probabilities"
+    - description: No TODOs remain in the probabilities.py file
+      check: MatchFileFragment
+      options:
+        fragment: "TODO"
+        count: 0
+        exact: true
+      objectives:
+        LO2:
+          degree:
+            - CMPSC: "I"
+              rationale: "Write a Python program to calculate probabilities"
+        LO5:
+          degree:
+            - CMPSC: "D"
+              rationale: "Write a Python program to calculate probabilities"
+- description: probabilities.py main() returns the correct output
+  check: MatchCommandFragment
+  options:
+    command: "python src/probabilities.py"
+    fragment: "Probability of getting an even number: 1/2, greater than 4: 1/3"
+    count: 1
+    exact: true
+  objectives:
+    LO2:
+      degree:
+        - CMPSC: "I"
+          rationale: "Write a Python program to calculate probabilities"
+    LO5:
+      degree:
+        - CMPSC: "D"
+          rationale: "Write a Python program to calculate probabilities"
+# nextprogram
