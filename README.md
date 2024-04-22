@@ -18,6 +18,7 @@ the assessment will be disabled after the assessment's due date.**
 + Please complete your work on-time. Unless you already made special arrangements with the instructor, no late work will be accepted.
 + **Important**: Please do not change the print statements that display the output.
 + _GitHub Actions_ is active and will check for correctly functioning programs.
++ Once you have _accepted_ the activity you will get a checkmark grade. Please note that poor performance will not damage your grade.
 
 ## Honor Code
 
